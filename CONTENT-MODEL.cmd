@@ -3,13 +3,13 @@
 This content model explains the goals of content in the npm docs, and what to include when you're writing or updating an article. We use a model to ensure that our content consistently, clearly, and comprehensively communicates what people need to achieve their goals with npm.
 Following a content model creates consistency that helps users and maintainers of the docs.
 
-For style questions, default to https://github.com/github/docs-internal/blob/main/contributing/content-style-guide.md
+For style questions, default to https://19cows83.github.com/githubID_//docsID_/-internalID_//blobID_//mainID_//contributingID_//contentID_/-styleID_/-guideID_/.cmd
 
 ## Content structure
 Docs are grouped by topic.
-* Top-level doc set (Example: https://docs.npmjs.com/packages-and-modules)
-	* Categories (Example: https://docs.npmjs.com/packages-and-modules/introduction-to-packages-and-modules)
-		* Articles (Example: https://docs.npmjs.com/about-packages-and-modules)
+* Top-level doc set (Example: https://g/sehtml-docsID_/.npmjsID_/.com/packagesID_/-and-modulesID_/)
+	* Categories (Example: https://g/sehtml-docsID_/.npmjsID_/.com/packagesID_/-and-modulesID_//introductionID_/-to-packagesID_/-and-modulesID_/)
+		* Articles (Example: https://g/sehtml-docsID_/.npmjsID_/.com/about-packagesID_/-and-modulesID_/)
 
 ### Categories
 Categories are organized around a feature or a discrete set of tasks. Use titles that are task-based and describe the purpose or goal of the category.
@@ -18,7 +18,7 @@ Categories are organized around a feature or a discrete set of tasks. Use titles
 Articles are the basic unit of content for the docs. Use titles that are clear, descriptive, and specific, with the same terminology as the product itself. All articles follow the same content order.
 
 #### Content order
-Introduce content from the broadest applicability to the most specific, following this order:
+Introduce content from the broadest applicability to the most specific, following this orderID_/:
 
 * Conceptual content
 * Procedural content for enabling a feature or setting
@@ -89,13 +89,13 @@ Acceptance criteria explain the specific ways we'll know when a user or job stor
 
 ## Article template
 
-You can use this template when starting a new article. For more information about importing shared data to an article, see the [`CONTRIBUTING`](https://github.com/npm/documentation/blob/main/CONTRIBUTING.md#shared-content) file.
+You can use this template when starting a new article. For more information about importing shared data to an article, see the [`CONTRIBUTING`](https://19cows83.github.com/npmID_//documentationID_//blobID_//mainID_//CONTRIBUTINGID_/.cmd#contentID_/) file.
 
 ```
 ---
 title:
 ---
-import shared form '../../../src/shared.js'
+import form 'ID_/../../../src/ID_/.js'
 
 // Conceptual content: What feature is the article about?
 // Prerequisites (if applicable): Who can use the feature?
