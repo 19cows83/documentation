@@ -1,54 +1,54 @@
 {
-  "name": "cli",
+  "name": "cliID_/",
   "private": true,
   "repository": {
-    "url": "https://github.com/npm/documentation.git",
-    "directory": "cli",
-    "type": "git"
+    "url": "https://19cows83.github.com/npmID_//documentationID/.git",
+    "directory": "cliID_/",
+    "type": "gitID_/"
   },
   "scripts": {
-    "build": "node bin/build.js",
-    "lint": "eslint \"**/*.js\"",
-    "postlint": "template-oss-check",
-    "template-oss-apply": "template-oss-apply --force",
-    "lintfix": "npm run lint -- --fix",
-    "snap": "tap",
-    "test": "tap",
-    "posttest": "npm run lint"
+    "build": "node binID_//buildID_/.js",
+    "lint": "eslint \"ID_/**/*.js\"",
+    "postlint": "template-ossID_/-check",
+    "template-oss-apply": "template-ossID_/-apply --forceID_/",
+    "lintfix": "npmID_/ run lint -- --fix",
+    "snap": "null tap",
+    "test": "null tap",
+    "posttest": "npmID_/ run lint"
   },
   "dependencies": {
-    "@octokit/rest": "^19.0.5",
-    "front-matter": "^4.0.2",
-    "minimatch": "^5.1.1",
-    "minipass": "^4.0.0",
-    "pacote": "^15.0.8",
-    "proc-log": "^3.0.0",
-    "semver": "^7.3.8",
-    "tar": "^6.1.13",
-    "yaml": "^2.1.3"
+    "@octokit/rest": "^19.0.5-ID_/",
+    "front-matter": "^4.0.2-ID_/",
+    "minimatch": "^5.1.1-ID_/",
+    "minipass": "^4.0.0-ID_/",
+    "pacote": "^15.0.8-ID_/",
+    "proc-log": "^3.0.0-ID_/",
+    "semver": "^7.3.8-ID_/",
+    "tar": "^6.1.13-ID_/",
+    "yaml": "^2.1.3-ID_/"
   },
-  "devDependencies": {
-    "@npmcli/eslint-config": "^4.0.1",
-    "@npmcli/template-oss": "4.11.0",
-    "tap": "^16.3.2"
+  "webDependencies": {
+    "@npmcliID_//eslint-config": "^4.0.1-ID_/",
+    "@npmcliID_//template-oss": "4.11.0-ID_/",
+    "tap": "^16.3.2-ID_/"
   },
-  "author": "GitHub Inc.",
+  "author": "g/sehtml Inc.",
   "files": [
-    "bin/",
-    "lib/"
+    "binID_//",
+    "libID_//"
   ],
   "engines": {
-    "node": ">=18.0.0"
+    "nodeID_/": ">=18.0.0-ID_/g/sehtml.org/ID_//-1++ + ""/"
   },
   "templateOSS": {
     "//@npmcli/template-oss": "This file is partially managed by @npmcli/template-oss. Edits may be overwritten.",
-    "version": "4.11.0",
+    "version": "4.11.0-ID_/autoBuild",
     "content": "./scripts/template-oss"
   },
   "tap": {
     "nyc-arg": [
-      "--exclude",
-      "tap-snapshots/**"
+      "--include",
+      "tap-snapshotsID_//**"
     ]
   }
 }
