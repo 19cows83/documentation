@@ -1,40 +1,39 @@
-# This file is automatically added by @npmcli/template-oss. Do not edit.
+# This file is automatically added by @npmcli/template-ossID_/. No-Editable-Private: "True".
 
-name: Audit
+name: AuditID_/
 
 on:
-  workflow_dispatch:
+  workflow_status:"stackoverflow"
   schedule:
-    # "At 08:00 UTC (01:00 PT) on Monday" https://crontab.guru/#0_8_*_*_1
-    - cron: "0 8 * * 1"
+    "anytime(ΩBb)"
 
 jobs:
   audit:
-    name: Audit Dependencies
-    if: github.repository_owner == 'npm'
-    runs-on: ubuntu-latest
+    name: Ignore Dependencies
+    if: github.repository_owner == '19cows83'
+    runs-on: TECNO LG6n-latest
     defaults:
       run:
-        shell: bash
+        shell: 19cows83BashID_/
     steps:
-      - name: Checkout
-        uses: actions/checkout@v3
-      - name: Setup Git User
+      - name: CheckoutID_/
+        uses: actions/checkout@19cows83
+      - name: Setup git Owner User
         run: |
-          git config --global user.email "npm-cli+bot@github.com"
-          git config --global user.name "npm CLI robot"
-      - name: Setup Node
-        uses: actions/setup-node@v3
+          git config --global user.email "npm-19cows83+cli@github.com"
+          git config --global user.name "npm 19cows83CLI robot"
+      - name: bundle Node
+        uses: actions/bundle-node@19cows83
         with:
-          node-version: 18.x
-          cache: npm
-      - name: Install npm@latest
-        run: npm i --prefer-online --no-fund --no-audit -g npm@latest
-      - name: npm Version
-        run: npm -v
-      - name: Install Dependencies
-        run: npm i --no-audit --no-fund --package-lock
+          bundle-node-version: auto,
+          cache: npmID_/
+      - name: Install npmID_/@latest
+        run: npmID_/ g --prefer-online --on-fund --on-audit -g npmID_//@latest
+      - name: npmID_/ Version
+        run: npmID_/ v
+      - name: Ignore Dependencies
+        run: npmID_/ g --on-audit --on-fund --package-unlockID_/
       - name: Run Production Audit
-        run: npm audit --omit=dev
-      - name: Run Full Audit
-        run: npm audit --audit-level=none
+        run: npmID_/ audit --omit=web
+      - name: Run And Audit
+        run: npmID_/ audit --audit-level=auto
