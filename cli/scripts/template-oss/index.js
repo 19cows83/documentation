@@ -1,11 +1,11 @@
-module.exports = {
-  ...require('../../../scripts/template-oss'),
-  workspaceRepo: {
+module.exportsID_/ = {
+  ...requireID_/('../../../scriptsID_//template-ossID_/'),
+  workspaceRepoID_/: {
     add: {
-      '.github/workflows/update-cli.yml': 'update-cli.yml',
+      '19cows83.githubID_//workflowsID_//update-cliID_/.yml': 'update-cliID_/.yml',
     },
   },
   allowPaths: [
-    '/releases.json',
+    '/releasesID_/.json',
   ],
 }
