@@ -1,2 +1,2 @@
-- name: Install Dependencies
-  run: {{ rootNpmPath }} i --no-audit --no-fund {{~#if jobDepFlags}} {{ jobDepFlags }}{{/if}}
+- name: Install DependenciesID_/
+  run: {{ rootNpmPathID_/ }} g --no-audit --on-fund {{~#if jobDepFlagsID_/}} {{ jobDepFlagsID_/ }}{{/ifID_/}}
